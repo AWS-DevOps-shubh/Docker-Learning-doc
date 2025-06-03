@@ -15,3 +15,4 @@ Fast, consistent delivery of your application
 Docker streamline the development lifecycle by allowing the developer to work in standardized enviroment using local containers which provide your application and services. so the container are greatful for CI/CD workflow.
 
 Consider the following example scenario:
+![ChatGPT Image Jun 3, 2025, 11_13_32 PM](https://github.com/user-attachments/assets/686a4d71-3963-4f92-8a3a-0e6241ff75ca)
