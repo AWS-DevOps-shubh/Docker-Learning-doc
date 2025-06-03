@@ -24,3 +24,7 @@ Docker container based platform allow you to Highly portable workloads. Doxker c
 
 Doxker portabilty and lightweight nature also give the functionality to make it easy to dynamically manage the wporkload, scaling up or scalling down the applicaton as per the business needed.
 
+*Docker architecture*
+
+
+
