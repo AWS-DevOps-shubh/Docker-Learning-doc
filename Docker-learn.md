@@ -16,3 +16,10 @@ Docker streamline the development lifecycle by allowing the developer to work in
 
 Consider the following example scenario:
 ![ChatGPT Image Jun 3, 2025, 11_13_32 PM](https://github.com/user-attachments/assets/686a4d71-3963-4f92-8a3a-0e6241ff75ca)
+
+
+*Responsive deployment and scaling*
+Docker container based platform allow you to Highly portable workloads. Doxker container run on local machine, on physical or virtual machine in a data centre or any cloud provider, or in mixture of enviroments.
+
+Doxker portabilty and lightweight nature also give the functionality to make it easy to dynamically manage the wporkload, scaling up or scalling down the applicaton as per the business needed.
+
