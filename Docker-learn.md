@@ -30,4 +30,14 @@ Docker uses the client-server architecture. The docker client talks to docker da
 
 ![docker-architecture (1)](https://github.com/user-attachments/assets/e9a87e24-8dbf-45ad-97b6-493737b645e7)
 
+*The Docker daemon*
+
+The Docker daemon (dockerd) listens for the Docker API request and manages docker objects such as images,containers, network, and volumes. A daemon is also communicate with another daemon to manage the Docker services.
+*The Docker client*
+
+The Docker client (docker) is the primary way to many Docker user interact with Docker. When you use command like **docker run**, the client sends the commands to **dockerd**, which carried out them. The docker commands uses the Docker API. the Docker client communicate the more than one daemon.
+
+
+
+
 
