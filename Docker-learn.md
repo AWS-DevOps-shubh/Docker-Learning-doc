@@ -26,5 +26,8 @@ Doxker portabilty and lightweight nature also give the functionality to make it 
 
 *Docker architecture*
 
+Docker uses the client-server architecture. The docker client talks to docker daemon, which does the heavy lifting and building, running, and distributing your Docker containers. The client and daemon run on the same systems. you can connect the docker client to remote docker daemon. Docker client and daemon communicate using REST API, over the UNIX socker or network interface. 
+
+![docker-architecture (1)](https://github.com/user-attachments/assets/e9a87e24-8dbf-45ad-97b6-493737b645e7)
 
 
