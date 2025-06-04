@@ -47,5 +47,9 @@ When you use the docker pull or docker run commands, Docker pulls the required i
 When you are use docker so basically you are creating and usingb images, containers, networks, volumes, plugins, and other objects.
 
 **Images**
+A image is a read-only template to create the docker container. a image is based on the another image with some custamization like you build the image which is based on the ubuntu image, but it installs the Apache web server and your application. as well as configuration that neede to run your application.
+
+If you create your own image or you use the image those crete other people and published in the Docker Registry. To build your own image you wright the Dockerfile with the simple step and syntax to create the docker **image and run.so basically each step in the Dockerfile is create the layer in the image. If you change somethings in the dockerfile and rebuild the image that time only those layer are change that you change in the dockerfile are rebuild.** That why the Docker image is Lightweight, small, and fast, when compared to other tools.
+
 
 
