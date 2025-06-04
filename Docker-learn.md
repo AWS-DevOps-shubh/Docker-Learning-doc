@@ -37,11 +37,15 @@ The Docker daemon (dockerd) listens for the Docker API request and manages docke
 
 The Docker client (docker) is the primary way to many Docker user interact with Docker. When you use command like **docker run**, the client sends the commands to **dockerd**, which carried out them. The docker commands uses the Docker API. the Docker client communicate the more than one daemon.
 
-*Docker registries*
+***Docker registries***
 
 A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker looks for images on Docker Hub by default. You can even run your own private registry.
 
 When you use the docker pull or docker run commands, Docker pulls the required images from your configured registry. When you use the docker push command, Docker pushes your image to your configured registry.
 
+*Docker objects*
+When you are use docker so basically you are creating and usingb images, containers, networks, volumes, plugins, and other objects.
+
+**Images**
 
 
