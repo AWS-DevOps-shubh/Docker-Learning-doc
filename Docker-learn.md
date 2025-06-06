@@ -60,7 +60,8 @@ By default it is in ois own space on host machine — And its easily talk to eac
 
 You can deside the how "seprate" or "Connected" it is — for things like internet (network), file (storage), and more.
 
-🧳 Real-World Analogy
+🧳 **Real-World Analogy**
+
 Think of containers as hotel rooms in a big hotel:
 
 🏨 Each room (container) has its own bathroom, bed, and key – it’s private.
