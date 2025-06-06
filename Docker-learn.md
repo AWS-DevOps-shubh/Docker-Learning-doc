@@ -54,3 +54,26 @@ If you create your own image or you use the image those crete other people and p
 
 **Containers**
 
+A container is running instance of image. You can create, Start, Stop, Delete or Move a container using Docker API or CLI. Also you can connect a container to one or more network, attached storageto it.
+
+By default it is in ois own space on host machine — And its easily talk to each other container or the main system unless you allow it.
+
+You can deside the how "seprate" or "Connected" it is — for things like internet (network), file (storage), and more.
+
+🧳 Real-World Analogy
+Think of containers as hotel rooms in a big hotel:
+
+🏨 Each room (container) has its own bathroom, bed, and key – it’s private.
+
+🚪 By default, guests in one room can’t enter another — this is isolation.
+
+📞 But the hotel manager (you) can allow shared access — like giving two rooms access to the same Wi-Fi, TV channel, or even a door between them.
+
+In the same way, you can:
+
+Let containers share a network (like same Wi-Fi).
+
+Use the same storage (like shared room fridge).
+
+Or keep them completely private (like no shared access at all).
+
