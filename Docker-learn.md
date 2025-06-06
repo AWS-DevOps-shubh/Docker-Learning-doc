@@ -88,3 +88,11 @@ The following command runs an ubuntu container, attaches interactively to your l
 ~~~
 
 
+1. If you don't have the image locally, Docker pulls its form the Docker registry. Think As like as you run the command manually.ates a new container 
+2. Then Docker creates a container as thought you run a munual command docker container create.
+3. Docker allocate the Read-write filesystems to the container, as it's final layer. This allows a running container to create and modify files.
+4. Docker creaqtes a network interface to connect the conatiner to default n etwork, Since you didn't specify any networking options. This includes assigning an IP address to the container. By default, containers can connect to external networks using the host machine's network connection.
+5. Docker starts the container and executes /bin/bash. Because the container is running interactively and attached to your terminal (due to the -i and -t flags), you can provide input using your keyboard while Docker logs the output to your terminal.
+6. When you run exit to terminate the /bin/bash command, the container stops but isn't removed. You can start it again or remove it.
+   
+![ChatGPT Image Jun 6, 2025, 03_04_58 PM](https://github.com/user-attachments/assets/b01e620f-5e58-4ee4-abba-6faeaf9ae61d)
