@@ -56,7 +56,7 @@ If you create your own image or you use the image those crete other people and p
 
 A container is running instance of image. You can create, Start, Stop, Delete or Move a container using Docker API or CLI. Also you can connect a container to one or more network, attached storageto it.
 
-By default it is in ois own space on host machine — And its easily talk to each other container or the main system unless you allow it.
+By default it is in own space on host machine — And its easily talk to each other container or the main system unless you allow it.
 
 You can deside the how "seprate" or "Connected" it is — for things like internet (network), file (storage), and more.
 
@@ -78,5 +78,5 @@ Use the same storage (like shared room fridge).
 
 Or keep them completely private (like no shared access at all).
 
-*A container is defined by its Image as well as configuration you provided when you create and start the image.* 
+**A container is defined by its Image as well as configuration you provided when you create and start the image.**
 
