@@ -85,5 +85,5 @@ Or keep them completely private (like no shared access at all).
 The following command runs an ubuntu container, attaches interactively to your local command-line session, and runs /bin/bash.
 ~~~bin
  docker run -i -t ubuntu /bin/bash
-~~~bash
+~~~bin
 
