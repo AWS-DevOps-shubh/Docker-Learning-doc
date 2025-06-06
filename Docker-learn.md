@@ -78,5 +78,12 @@ Use the same storage (like shared room fridge).
 
 Or keep them completely private (like no shared access at all).
 
-**A container is defined by its Image as well as configuration you provided when you create and start the image.**
+**A container is defined by its Image as well as configuration you provided when you create and start the image.** if you remove the container, any changes to its state isn't store in persistent storage.
+
+**Example docker run command**
+
+The following command runs an ubuntu container, attaches interactively to your local command-line session, and runs /bin/bash.
+~~~bin
+ docker run -i -t ubuntu /bin/bash
+~~~bash
 
